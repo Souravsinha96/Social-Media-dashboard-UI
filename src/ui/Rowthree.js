@@ -111,10 +111,44 @@ export default function Rowthree() {
       </Grid>
       <Grid
         item
+        container
+        direction="column"
         className={classes.container}
-        style={{ paddingTop: "20px", marginRight: "31px" }}
+        style={{
+          paddingTop: "20px",
+          marginRight: "31px",
+          position: "relative",
+        }}
       >
-        <img src="assets/donut.svg" />
+        <Grid item>
+          <img src="assets/donut.svg" />
+          <img
+            src="assets/bar.svg"
+            style={{ position: "absolute", top: "8px", right: "14px" }}
+          />
+        </Grid>
+        <Grid
+          item
+          style={{ position: "absolute", right: "88px", top: "152px" }}
+        >
+          <Typography
+            align="center"
+            style={{
+              fontSize: "55px",
+              fontWeight: 500,
+              color: "#3D41D7",
+              marginBottom: "20px",
+            }}
+          >
+            89<span style={{ fontSize: "40px" }}>%</span>
+          </Typography>
+          <Typography
+            align="center"
+            style={{ fontSize: "16px", fontWeight: "normal", color: "#8F92A1" }}
+          >
+            Posts Went Viral
+          </Typography>
+        </Grid>
       </Grid>
       <Grid
         item

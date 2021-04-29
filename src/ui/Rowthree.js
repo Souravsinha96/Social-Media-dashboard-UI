@@ -8,11 +8,15 @@ const useStyles = makeStyles((theme) => ({
     minHeight: "330px",
   },
   postContainer: {
-    background: "linear-gradient(131.58deg, #FA93D2 1.34%, #895FE0 103.94%)",
+    backgroundImage: `linear-gradient(131.58deg, #FA93D2 1.34%, #895FE0 103.94%),url("assets/postdesign.svg")`,
     borderRadius: "20px",
     Width: "314px",
     maxWidth: "314px",
     height: "280px",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "bottom",
+    backgroundBlendMode: "soft-light",
+    backgroundSize: "318px",
   },
   postContent: {
     color: "#fff",

@@ -11,6 +11,7 @@ import { Button, Typography } from "@material-ui/core";
 import Badge from "@material-ui/core/Badge";
 import Rowone from "../src/ui/Rowone";
 import Rowtwo from "../src/ui/Rowtwo";
+import Rowthree from "../src/ui/Rowthree";
 
 const useStyles = makeStyles((theme) => ({
   menu: {
@@ -191,6 +192,7 @@ export default function Dashboard() {
       <Grid item container direction="column" style={{ marginLeft: "32px" }} lg>
         <Rowone />
         <Rowtwo />
+        <Rowthree />
       </Grid>
     </Grid>
   );

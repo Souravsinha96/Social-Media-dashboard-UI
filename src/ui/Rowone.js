@@ -33,7 +33,7 @@ export default function Rowone() {
       </Grid>
       <Grid item>
         <img
-          src="assets/avatar.svg"
+          src="assets/avatar.jpg"
           alt="avatar"
           style={{ marginTop: "24px" }}
         />

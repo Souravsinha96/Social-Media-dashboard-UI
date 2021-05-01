@@ -1,5 +1,10 @@
-# Next.js example
 
+# social media management dashboard UI.
+
+#### source for design :https://dribbble.com/shots/15077174-Social-Median-Management-Dashboard-UI-Concept-Free-Download
+
+
+## Next.js example
 ## How to use
 
 Download the example [or clone the repo](https://github.com/mui-org/material-ui):
